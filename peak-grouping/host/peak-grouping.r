@@ -5,6 +5,7 @@ output = args[2]
 
 load(xset2)
 
+library(xcms)
 ### 3. Peaks grouping ###
 # Group retention-time-corrected peaks and print plots for visual inspection of grouping quality in 'grouping.pdf'
 pdf("grouping.pdf")
