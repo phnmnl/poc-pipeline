@@ -27,4 +27,4 @@ d_cdf1_n <- d_n[,substr(colnames(d_n),nchar(colnames(d_n))-1,nchar(colnames(d_n)
 
 ## Save data ##
 
-save(d_cdf1_n,file=output)
+write.table(d_cdf1_n,file=output,sep='\t',row.names=F)
