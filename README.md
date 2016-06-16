@@ -9,4 +9,3 @@ A pipeline for reproducing the data processing in Ganna et. al. (2014). The comp
 - extract-peak-values
 - normalization
 - outlier-detection
-- log2-transformation
